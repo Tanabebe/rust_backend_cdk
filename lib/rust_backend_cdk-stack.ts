@@ -5,8 +5,6 @@ import {Architecture, Code, Function as LambdaFunction, Runtime} from "aws-cdk-l
 import {join} from "path";
 import {Duration} from "aws-cdk-lib";
 
-// import * as sqs from 'aws-cdk-lib/aws-sqs';
-
 export class RustBackendCdkStack extends cdk.Stack {
 
   // API Gatewayの作成
