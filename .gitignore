@@ -6,3 +6,12 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# IDE
+.idea/
+
+# AWS Config
+.aws/
+
+# Mac
+.DS_Store
